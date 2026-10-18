@@ -1,0 +1,520 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#000000">
+
+    <meta
+        name="description"
+        content="GLITCHR — Experimental streetwear, signature hoodies and custom prints."
+    >
+
+    <title>GLITCHR — Different by Design</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="s.css">
+    <link rel="stylesheet" href="s.js">
+</head>
+
+<body>
+
+    <!-- Announcement -->
+    <div class="announcement">
+        FIRST DROP COMING SOON — MAKE IT YOURS.
+    </div>
+
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <a href="#home" class="logo">
+            GLITCHR<span>®</span>
+        </a>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="#collection">Shop</a>
+            <a href="#custom">Custom Print</a>
+            <a href="#about">Our World</a>
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="icon-button" id="searchToggle" aria-label="Search">
+                ⌕
+            </button>
+
+            <button class="bag-button" id="cartOpen">
+                Bag <span id="cartCount">0</span>
+            </button>
+
+            <button class="menu-button" id="menuToggle" aria-label="Open menu">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    GLITCHR / DROP 001
+                </p>
+
+                <h1>
+                    NOT MADE<br>
+                    TO <span>BLEND IN.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Streetwear for people who were never built
+                    to fit the pattern.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#collection" class="button button-light">
+                        Explore the Drop ↗
+                    </a>
+
+                    <a href="#custom" class="text-link">
+                        Create Your Own ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Product -->
+            <div class="hero-product">
+
+                <img
+                    src="image/hero.jpg"
+                    alt="GLITCHR signature hoodie"
+                    class="hero-image"
+                >
+
+                <div class="hero-image-caption">
+                    <span>GLITCHR / CORE HOODIE</span>
+                    <span>BLACK / 001</span>
+                </div>
+
+            </div>
+
+
+            <!-- Hero Footer -->
+            <div class="hero-footer">
+                <span>DESIGNED TO DISRUPT</span>
+                <span>SCROLL TO EXPLORE ↓</span>
+                <span>EST. 2026</span>
+            </div>
+
+        </section>
+
+
+        <!-- Brand Introduction -->
+        <section class="intro-section" id="about">
+
+            <p class="section-label">
+                01 — THE IDEA
+            </p>
+
+            <div class="intro-content">
+
+                <h2>
+                    Wear the<br>
+                    <span>unexpected.</span>
+                </h2>
+
+                <div class="intro-description">
+
+                    <p>
+                        GLITCHR lives where streetwear meets
+                        self-expression.
+
+                        Original graphics, considered basics,
+                        and prints that refuse to disappear
+                        into the background.
+                    </p>
+
+                    <a href="#collection" class="dark-link">
+                        Meet the Collection ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Product Collection -->
+        <section class="collection-section" id="collection">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">
+                        02 — THE FIRST DROP
+                    </p>
+
+                    <h2>Built to stand out.</h2>
+                </div>
+
+                <p>
+                    Small details. Big energy.<br>
+                    Find your fit.
+                </p>
+
+            </div>
+
+
+            <!-- JavaScript inserts products here -->
+            <div class="product-grid" id="productGrid"></div>
+
+
+            <div class="collection-footer">
+
+                <span>GLITCHR / FIRST DROP</span>
+
+                <a href="#custom" class="text-link">
+                    Want Your Own Print? ↗
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Custom Print -->
+        <section class="custom-section" id="custom">
+
+            <div class="custom-art">
+
+                <p class="custom-art-small">
+                    GLITCHR CUSTOM STUDIO
+                </p>
+
+                <h2>
+                    YOUR<br>
+                    <span>IDEA.</span><br>
+                    YOUR RULES.
+                </h2>
+
+                <p class="custom-art-footer">
+                    CUSTOM PRINT / 001
+                </p>
+
+            </div>
+
+
+            <div class="custom-content">
+
+                <p class="eyebrow">
+                    03 — MADE PERSONAL
+                </p>
+
+                <h2>
+                    Your design.<br>
+                    Our print.
+                </h2>
+
+                <p>
+                    Got artwork, a sketch, or an idea living
+                    in your camera roll?
+
+                    Choose your hoodie, tell us what you
+                    have in mind, and we'll contact you
+                    to confirm the details.
+                </p>
+
+                <a href="#customForm" class="button button-dark">
+                    Start a Custom Order ↗
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Custom Order Form -->
+        <section class="custom-form-section" id="customForm">
+
+            <p class="section-label">
+                04 — YOUR CANVAS
+            </p>
+
+            <div class="form-layout">
+
+                <div class="form-intro">
+
+                    <h2>
+                        Make it<br>
+                        <span>personal.</span>
+                    </h2>
+
+                    <p>
+                        Tell us about your custom hoodie.
+                        We'll review the details and confirm
+                        the price with you.
+                    </p>
+
+                </div>
+
+
+                <form id="customOrderForm">
+
+                    <label for="customerName">
+                        YOUR NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="customerName"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                    >
+
+
+                    <label for="customerPhone">
+                        WHATSAPP NUMBER
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="customerPhone"
+                        name="phone"
+                        placeholder="+20 ..."
+                        required
+                    >
+
+
+                    <div class="form-row">
+
+                        <div>
+                            <label for="hoodieColor">
+                                HOODIE COLOR
+                            </label>
+
+                            <select id="hoodieColor" name="color">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                            </select>
+                        </div>
+
+
+                        <div>
+                            <label for="hoodieSize">
+                                SIZE
+                            </label>
+
+                            <select id="hoodieSize" name="size" required>
+                                <option value="">Select Size</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                    <label for="designDetails">
+                        DESIGN DETAILS
+                    </label>
+
+                    <textarea
+                        id="designDetails"
+                        name="details"
+                        rows="4"
+                        placeholder="Describe your design..."
+                        required
+                    ></textarea>
+
+
+                    <label for="designFile">
+                        UPLOAD YOUR DESIGN
+                    </label>
+
+                    <input
+                        type="file"
+                        id="designFile"
+                        name="designFile"
+                        accept="image/*,.pdf"
+                    >
+
+                    <p class="file-note">
+                        You can send your design file directly
+                        in WhatsApp after submitting the form.
+                    </p>
+
+
+                    <button
+                        type="submit"
+                        class="button button-dark submit-button"
+                    >
+                        Prepare My Request ↗
+                    </button>
+
+                    <p id="formFeedback" class="form-feedback"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- Closing Banner -->
+        <section class="closing-section">
+
+            <p class="eyebrow">
+                GLITCHR / NO STANDARD MODE
+            </p>
+
+            <h2>
+                Different<br>
+                by <span>design.</span>
+            </h2>
+
+            <a href="#collection" class="button button-light">
+                Find Your Hoodie ↗
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <a href="#home" class="logo">
+            GLITCHR<span>®</span>
+        </a>
+
+        <p>THE ART OF BEING DIFFERENT.</p>
+
+        <div class="footer-links">
+            <a href="#collection">Shop</a>
+            <a href="#custom">Custom Print</a>
+            <a href="#about">About</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 GLITCHR. ALL RIGHTS RESERVED.
+        </p>
+
+    </footer>
+
+
+    <!-- Search Panel -->
+    <div class="search-panel" id="searchPanel">
+
+        <div class="search-content">
+
+            <label for="productSearch">
+                SEARCH THE DROP
+            </label>
+
+            <input
+                type="search"
+                id="productSearch"
+                placeholder="Search hoodies..."
+            >
+
+            <button id="searchClose" aria-label="Close search">
+                ×
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Cart Drawer -->
+    <aside class="cart-drawer" id="cartDrawer">
+
+        <div class="cart-header">
+
+            <div>
+                <p class="eyebrow">GLITCHR / YOUR BAG</p>
+                <h2>Your Picks.</h2>
+            </div>
+
+            <button id="cartClose" class="close-button">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">
+                Your bag is empty.
+            </p>
+        </div>
+
+
+        <div class="cart-bottom">
+
+            <div class="cart-total">
+                <span>Subtotal</span>
+                <strong id="cartSubtotal">EGP 0</strong>
+            </div>
+
+            <button
+                class="button button-dark full-button"
+                id="checkoutButton"
+            >
+                Order via WhatsApp ↗
+            </button>
+
+            <p>
+                Delivery fees will be confirmed when your
+                order is reviewed.
+            </p>
+
+        </div>
+
+    </aside>
+
+
+    <!-- Cart Background -->
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+
+    <!-- Notifications -->
+    <div class="toast" id="toast"></div>
+
+
+    <!-- Main JavaScript -->
+    <script src="s.js"></script>
+
+</body>
+</html>
+```
